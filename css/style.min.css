@@ -3722,31 +3722,11 @@ svg.a17 {
         flex-wrap: wrap;
     }
 }
-ul.a1v {
-    list-style: none;
-    margin-left: 0;
-}
-ul.a1v li i {
-    width: 1.6em;
-}
-ul.a1v li ul {
-    list-style: none;
-}
-ul.a1v.a1w li {
-    display: inline;
-    padding-right: 0.7em;
-}
-ul.a1v li a:link,
-ul.a1v li a:visited {
-    color: currentColor;
-}
-ul.a1v li a:hover {
-    color: #da3549;
-}
-ul.a1x > li {
-    margin-top: 0.5rem;
-    font-style: italic;
-}
+
+
+
+
+
 table {
     width: 100%;
     font-size: 0.875rem;
