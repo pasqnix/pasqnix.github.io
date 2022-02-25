@@ -3154,10 +3154,28 @@ footer .footer-container .footer-line .icp-br {
     }
 }
 
+/*------- binre*/
 
 
-
-
+.a13 {
+    position: absolute;
+    padding: 0.1rem;
+    height: 1.4rem;
+    left: 0rem;
+    top: 0rem;
+    padding: 0 1.5rem 0 1.1rem;
+    display: block;
+    background-color: #000;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 1.4rem) 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 1.4rem) 100%, 0 100%);
+    color: #fff;
+}
+.a13 .a14 {
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+.a13 .a15 {
+    font-size: 0.7rem;
 
 a {
     outline: 0;
@@ -3392,55 +3410,7 @@ a:hover {
 
 
 
-table {
-    width: 100%;
-    font-size: 0.875rem;
-    line-height: 1.25em;
-    border-collapse: collapse;
-    margin-bottom: 1rem;
-}
-table thead tr {
-    padding: 0rem;
-}
-table thead tr th {
-    text-align: left;
-}
-table td,
-table th {
-    padding: 0.3rem 0.625rem;
-}
-table tr {
-    border-bottom: 1px solid #e4e4e4;
-}
-table tr:first-child {
-    border-top: 1px solid #e4e4e4;
-}
-table tr.nobotbor {
-    border-bottom: 0;
-}
-dl {
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 0.875rem;
-    line-height: 1.25em;
-}
-dl dt {
-    flex-basis: 20%;
-    font-weight: 600;
-}
-dl dd {
-    flex-basis: 70%;
-    flex-grow: 1;
-}
-dl dd,
-dl dt {
-    padding: 0.3rem 0.625rem;
-    border-bottom: 1px solid #e4e4e4;
-}
-dl dd:nth-child(2),
-dl dt:first-child {
-    border-top: 1px solid #e4e4e4;
-}
+
 .a1y {
     display: none !important;
 }
@@ -3545,232 +3515,6 @@ h4 {
 .a2i {
     font-weight: 600;
 }
-.chroma {
-    color: #272822;
-    background-color: #fafafa;
-}
-.chroma .err {
-    color: #960050;
-    background-color: #1e0010;
-}
-.chroma .lntd {
-    vertical-align: top;
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-.chroma .lntable {
-    border-spacing: 0;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    width: auto;
-    overflow: auto;
-    display: block;
-}
-.chroma .hl {
-    display: block;
-    width: 100%;
-    background-color: #ffc;
-}
-.chroma .lnt {
-    margin-right: 0.4em;
-    padding: 0 0.4em 0 0.4em;
-    color: #7f7f7f;
-}
-.chroma .ln {
-    margin-right: 0.4em;
-    padding: 0 0.4em 0 0.4em;
-    color: #7f7f7f;
-}
-.chroma .k {
-    color: #00a8c8;
-}
-.chroma .kc {
-    color: #00a8c8;
-}
-.chroma .kd {
-    color: #00a8c8;
-}
-.chroma .kn {
-    color: #f92672;
-}
-.chroma .kp {
-    color: #00a8c8;
-}
-.chroma .kr {
-    color: #00a8c8;
-}
-.chroma .kt {
-    color: #00a8c8;
-}
-.chroma .n {
-    color: #111;
-}
-.chroma .na {
-    color: #75af00;
-}
-.chroma .nb {
-    color: #111;
-}
-.chroma .bp {
-    color: #111;
-}
-.chroma .nc {
-    color: #75af00;
-}
-.chroma .no {
-    color: #00a8c8;
-}
-.chroma .nd {
-    color: #75af00;
-}
-.chroma .ni {
-    color: #111;
-}
-.chroma .ne {
-    color: #75af00;
-}
-.chroma .nf {
-    color: #75af00;
-}
-.chroma .fm {
-    color: #111;
-}
-.chroma .nl {
-    color: #111;
-}
-.chroma .nn {
-    color: #111;
-}
-.chroma .nx {
-    color: #75af00;
-}
-.chroma .py {
-    color: #111;
-}
-.chroma .nt {
-    color: #f92672;
-}
-.chroma .nv {
-    color: #111;
-}
-.chroma .vc {
-    color: #111;
-}
-.chroma .vg {
-    color: #111;
-}
-.chroma .vi {
-    color: #111;
-}
-.chroma .vm {
-    color: #111;
-}
-.chroma .l {
-    color: #ae81ff;
-}
-.chroma .ld {
-    color: #d88200;
-}
-.chroma .s {
-    color: #d88200;
-}
-.chroma .sa {
-    color: #d88200;
-}
-.chroma .sb {
-    color: #d88200;
-}
-.chroma .sc {
-    color: #d88200;
-}
-.chroma .dl {
-    color: #d88200;
-}
-.chroma .sd {
-    color: #d88200;
-}
-.chroma .s2 {
-    color: #d88200;
-}
-.chroma .se {
-    color: #8045ff;
-}
-.chroma .sh {
-    color: #d88200;
-}
-.chroma .si {
-    color: #d88200;
-}
-.chroma .sx {
-    color: #d88200;
-}
-.chroma .sr {
-    color: #d88200;
-}
-.chroma .s1 {
-    color: #d88200;
-}
-.chroma .ss {
-    color: #d88200;
-}
-.chroma .m {
-    color: #ae81ff;
-}
-.chroma .mb {
-    color: #ae81ff;
-}
-.chroma .mf {
-    color: #ae81ff;
-}
-.chroma .mh {
-    color: #ae81ff;
-}
-.chroma .mi {
-    color: #ae81ff;
-}
-.chroma .il {
-    color: #ae81ff;
-}
-.chroma .mo {
-    color: #ae81ff;
-}
-.chroma .o {
-    color: #f92672;
-}
-.chroma .ow {
-    color: #f92672;
-}
-.chroma .p {
-    color: #111;
-}
-.chroma .c {
-    color: #75715e;
-}
-.chroma .ch {
-    color: #75715e;
-}
-.chroma .cm {
-    color: #75715e;
-}
-.chroma .c1 {
-    color: #75715e;
-}
-.chroma .cs {
-    color: #75715e;
-}
-.chroma .cp {
-    color: #75715e;
-}
-.chroma .cpf {
-    color: #75715e;
-}
-.chroma .ge {
-    font-style: italic;
-}
-.chroma .gs {
-    font-weight: 700;
-}
+
 
 /*# sourceMappingURL=style.min.css.map */
