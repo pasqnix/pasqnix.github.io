@@ -3169,27 +3169,7 @@ img {
     padding: 0;
     box-sizing: border-box;
 }
-body_re,
-html_re {
-    height: 100vh;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    background-color: #fff;
-}
-.a0 {
-    background-color: #fff;
-}
-body_re {
-    font-family: "Nunito Sans", sans-serif;
-    font-display: swap;
-    line-height: 1.8rem;
-    color: #232323;
-}
-body_re a {
-    text-decoration: none;
-}
+
 a:link,
 a:visited {
     color: currentColor;
